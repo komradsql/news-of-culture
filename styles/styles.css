@@ -17,11 +17,11 @@ p, h3 {
 .header__links {
     padding-left: 230px;
     padding-top: 40px;
-    max-width: 1000px;
+    width: 1000px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .header__links-link {
@@ -41,6 +41,7 @@ p, h3 {
 .main__image {
     width: 100%;
     padding-top: 50px;
+    width: 100%;
 }
 
 .main__text-main {
@@ -126,7 +127,7 @@ p, h3 {
 }
 
 .main__ads {
-    position: relative;
+    
     width: 100%;
     height: 550px;
     background-color: #f6f6f6;
@@ -170,7 +171,11 @@ p, h3 {
 
 .main__ads-circle {
     position: absolute;
-        left: 385px;
+        top: 1950px; 
+        left: 0; 
+        bottom: 0; 
+        right: 0;
+    margin: auto;
     background-blend-mode: multiply;
     width: 650px;
     height: 650px;

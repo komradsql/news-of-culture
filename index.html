@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <title>Новости культуры</title>
+</head>
+<body>
+    <header>
+        <div class="header__logo">
+        <a href="#"><img src="/img/logo.svg" alt="Новости культуры"></a>
+        </div> 
+        <nav class="header__links">
+            <a href="#" class="header__links-link">Новости</a>
+            <a href="#" class="header__links-link">Обзоры</a>
+            <a href="#" class="header__links-link">Музыка</a>
+            <a href="#" class="header__links-link">Архитектура</a>
+            <a href="#" class="header__links-link">Кино</a>
+            <a href="#" class="header__links-link">Театр</a>
+            <a href="#" class="header__links-link">Литература</a>
+            <a href="#" class="header__links-link">Религия</a>
+            <a href="#" class="header__links-link">Живопись</a>
+        </nav>
+    </header>
+    <main>
+        <section class="main__block">
+
+            <!-- Здесь можно было бы использовать background-image, чтобы избежать применения 
+            position: absolute и подобных координат. Но в качестве эксперимента я использовал
+            именно вставку через img -->
+
+            <img src="/img/underwater-hotel.jpg" alt="Подводный отель" class="main__image">
+            <a href="#"><p class="main__text-main">Подводный отель</p></a>
+            <p class="main__text-article">Как известно, Дубай — город контрастов. Самые революционные
+                и фантастически мечты архитекторов способен воплотить в жизнь
+                этот мегаполис, построенный на нефти и за счет нефти</p>
+        </section>
+        <h3 class="reviews__header">Обзоры</h3>
+        <section class="main__blocks-reviews">
+            
+            <div class="reviews__main">
+                <div class="reviews__main-img">
+                <a href="#"><img src="/img/monparnasse.jpg" alt="Монпарнас" width="300" height="160"></a>
+                 </div>
+                <h3>«Шальные годы» Монпарнаса</h3>
+                <p>В Музее изобразительных искусств имени Пушкина с 29 сентября подобных
+                    по 29 ноября проходит выставка «Шальные годы» Монпарнаса</p>
+            </div>
+           
+            <div class="reviews__main">
+                <div class="reviews__main-img">
+                <a href="#"><img src="/img/clay-in-the-hands.jpg" alt="Анатомия" class="reviews__main-img" width="300" height="160"></a>
+                </div>
+                <h3>Анатомия за 30 секунд</h3>
+                <p>Сейчас, когда мир открыт нараспашку для человека и его познавательных
+                    изысканий, интерес к научно-популярной литературе заметно вырос</p>
+            </div>
+            
+            <div class="reviews__main">
+                <div class="reviews__main-img">
+                <a href="#"><img src="/img/spherical-eccentrics.jpg" alt="Чудаки" class="reviews__main-img" width="300" height="160"></a>
+                </div>
+                <h3>Сферические чудаки</h3>
+                <p>Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре
+                    «Сфера» на премьере спектакля «Чудаки и зануды»</p>
+            </div>
+            
+        </section>
+        <section class="main__ads">
+            <div class="main__ads-circle"></div>
+            <h3>Абонементы в театр</h3>
+            <div class="main__ads-text">
+                <h3>Скидка 50% на весь сезон 2020</h3>
+                <p>Покупая абонемент на сезон 2020 вы сэкономите половину стоимости
+                    всех спектаклей</p>
+            </div>
+            <div class="main__ads-text">
+                <h3>Места у сцены</h3>
+                <p>Только для обладателей абонементов будет возможность сесть поближе
+                    к сцене</p>
+            </div>
+            <div class="main__ads-text">
+                <h3>Автограф-сессия актёров</h3>
+                <p>После спектаклей у вас будет возможность пообщаться с актёрами
+                    и взять у них автограф</p>
+            </div>
+                
+                <a href="#" class="main__ads-button">Смотреть &rarr;</a>
+                
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer__main">
+            <div class="footer__img">
+            <a href="#"><img src="/img/white-logo.svg" alt="Новости культуры"></a>
+            </div>
+            <div class="footer__links">
+                <a href="#" class="footer__links-link">Новости</a>
+                <a href="#" class="footer__links-link">Обзоры</a>
+                <a href="#" class="footer__links-link">Музыка</a>
+                <a href="#" class="footer__links-link">Архитектура</a>
+                <a href="#" class="footer__links-link">Кино</a>
+                <a href="#" class="footer__links-link">Театр</a>
+                <a href="#" class="footer__links-link">Литература</a>
+                <a href="#" class="footer__links-link">Религия</a>
+                <a href="#" class="footer__links-link">Живопись</a>
+            </div>
+            <div class="footer__social">
+
+                <!-- каждой иконке заданы отдельные параметры бокса, тк картинки-иконки из макета
+                имеют разный размер и для них не сработают одинаковые паддинги-->
+
+                <div><a href="#1"><img src="/img/instagram_icon.svg" alt="Instagram" class="footer__social_img-IG"></a></div>
+                <div><a href="#2"><img src="/img/facebook_icon.svg" atl="Facebook" class="footer__social_img-FB"></a></div>
+                <div><a href="#3"><img src="/img/twitter_icon.svg" alt="Twitter" class="footer__social_img-TW"></a></div>
+            </div>
+        </section>
+    </footer>
+
+</body>
+</html>

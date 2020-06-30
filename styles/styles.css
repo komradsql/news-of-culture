@@ -126,8 +126,12 @@ p, h3 {
     margin-bottom: 50px;
 }
 
+.reviews__main a {
+    text-decoration: none;
+    color: black;
+}
+
 .main__ads {
-    
     width: 100%;
     height: 550px;
     background-color: #f6f6f6;
